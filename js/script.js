@@ -1,9 +1,9 @@
-let question = prompt('Come ti chiami?');
-let questionCognome= prompt ("Qual'è il tuo cognome");
-let questionColore = prompt("Qual'è il tuo colore preferito");
+let nome = prompt('Come ti chiami?');
+let cognome= prompt ("Qual'è il tuo cognome");
+let colore = prompt("Qual'è il tuo colore preferito");
 const number = 21;
 
-let mypassword = question + questionCognome + questionColore + number;
+let mypassword = nome + cognome + colore + number;
 
 document.getElementById("password").innerHTML= mypassword;
 
